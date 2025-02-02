@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newsletter de Tecnologia</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Assine nossa Newsletter</h1>
+    <p> Mantenha-se atualizado com as últimas tendências e inovações em Node.js e desenvolvimento web backend! 
+        Descubra as novas funcionalidades do Node.js. Explore as vantagens e desafios como desenvolvimento 
+        de aplicações web. Não perca as discussões mais recentes sobre carreiras e imersão em backend com Node.js no 
+        podcast <strong>NodeJS e tecnologias.</strong></p>
+
+    <!--  Forms que ira mandar para rota /signup -->
+    <form action="/signup" method="post" class="signup-form">
+      <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+      <button type="submit">Inscrever-se</button>
+    </form>
+  </div>
+</body>
+
+</html>
